@@ -1,0 +1,257 @@
+.headline {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+@media screen and (max-width: 991px) {
+  /* .headline {
+      display: grid;
+    } */
+  .images-r {
+    margin-right: 3px;
+  }
+}
+.headers {
+  width: 95%;
+  /* margin-top: 50px; */
+  /* margin-left: 50px; */
+}
+.heading-r {
+  color: #438400;
+  font-weight: 750;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  /* text-align: right; */
+}
+.head1{
+  font-size: 5.5rem;
+}
+@media screen and (max-width: 400px){
+	.head1{
+		font-size: 4.2rem;
+	}
+}
+img {
+  vertical-align: middle;
+}
+.grow{
+  color: #438400;
+  font-weight: 750;
+  font-size: 4.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.content-r {
+  color: #5e9820;
+  margin-top: 0;
+  font-size: 2rem;
+  /* text-align: right; */
+}
+.heading-l {
+  color: #438400;
+  font-weight: 750;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  text-align: right;
+}
+.content-l {
+  color: #5e9820;
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 0;
+  text-align: right;
+}
+.images-r {
+  float: right;
+  width: 50%;
+  margin-top: 5%;
+}
+.images-l {
+  float: left;
+  width: 35%;
+  /* margin-top: 8%; */
+}
+
+.landing {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  display: block;
+}
+
+.growbox {
+  display: flex;
+  flex-direction: column;
+}
+.growbox-text {
+  margin-left: 7%;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 638px) {
+  .landing {
+    width: 95%;
+  }
+  .growbox-text {
+    margin-left: 3%;
+  }
+}
+
+.certi {
+  float: right;
+  width: 40%;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+.growbox-text .content-r {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.growbox-text .heading-r {
+  margin-top: 0;
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+
+@media only screen and (max-width: 717px) {
+  .certi {
+    width: 100%;
+  }
+  .content-l{
+    text-align: center;
+  }
+  .content-r{
+    text-align: center;
+  }
+  .heading-l{
+    text-align: center;
+  }
+  .heading-r{
+    text-align: center;
+  }
+  .headers {
+    margin-left: 0px;
+  }
+  .images-l {
+    margin-left: 20%;
+    width: 65%;
+  }
+  .growbox-content{
+    text-align: center;
+  }
+  .images-r {
+    width: 65%;
+    margin-right: 20%;
+  }
+  .growbox-text .content-r {
+    font-size: 2.2rem;
+  }
+  .growbox-text .heading-r {
+    font-size: 2rem;
+  }
+}
+.cultivate{
+  background-color: rgb(138,197,63);
+  background: linear-gradient(65deg, #7dbc3e 0%, #0f7238 35%);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 717px) {
+  .growbox-text .grow {
+    font-size: 4rem;
+    text-align: center;
+
+  }
+}
+@media only screen and (max-width: 460px) {
+  .growbox-text .grow {
+    font-size: 3rem;
+    text-align: center;
+
+  }
+}
+@media only screen and (max-width: 300px) {
+  .growbox-text .grow {
+    font-size: 2rem;
+    text-align: center;
+
+  }
+}
+.grow{
+  font-size: 4.5rem;
+}
+
+
+.cultivatebigheading{
+  text-align: center;
+  color: #fff;
+  font-size: 4.5rem;
+}
+@media  screen and (max-width:490px) {
+  .cultivate{
+  margin-left: 0;
+  margin-left: 0;
+  width:95%;
+  display: block;
+  margin-right:auto ;
+  margin-left: auto;
+  }
+  .cultivatebigheading{
+    font-size: 3.0rem;
+  }
+  
+}
+
+.imagecult{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+}
+@media  screen and (max-width:400px) {
+  .imagecult{
+    width:40%
+  }
+}
+.cultivatesmallheading{
+  color: #fff;
+  padding: 10% 10% 5% 10%;
+  /* position: absolute; */
+}
+.icon-arrow{
+  font-size: 3.0rem;
+  display: inline-block;
+  /* margin-bottom: 30px; */
+  position: relative;
+  /* top: 100; */
+  left:10%;
+  top:60%;
+}
+.newsletter{
+  padding-bottom: 10px;
+}
+.popup-content {
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+html[data-theme=dark] .popup-content {
+    background-color: #292d3e;
+    color: #fff;
+    border: 1px solid #464545;
+}
+.comingSoon{
+    background: #7dbc3e center;
+    /* background-size: cover; */
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40vh
+}
+
